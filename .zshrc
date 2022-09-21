@@ -1,12 +1,14 @@
-export ZSH="$HOME/.oh-my-zsh"
+# export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
 
-plugins=(git)
+# plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
-source $ZSH/zcommands.sh
+# source $ZSH/oh-my-zsh.sh
+# source $ZSH/zcommands.sh
 
-alias ls='ls --color=auto'
-alias ll='ls -alF'
-alias la='ls -alF'
+# alias ls='ls --color=auto'
+# alias ll='ls -alF'
+# alias la='ls -alF'
+
+eval "$(starship init zsh)"
