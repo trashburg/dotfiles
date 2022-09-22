@@ -11,4 +11,8 @@
 # alias ll='ls -alF'
 # alias la='ls -alF'
 
+if [ -f /home/user/zcommands.sh ]; then
+    source /home/user/zcommands.sh
+fi
+
 eval "$(starship init zsh)"
