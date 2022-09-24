@@ -21,6 +21,8 @@ $time\
 [ ](fg:#33658A)\
 """
 
+
+continuation_prompt = "[ ](bg:#33658A)[ ](fg:#33658A)"
 # [](fg:#86BBD8 bg:#06969A)\
 # $docker_context\
 
