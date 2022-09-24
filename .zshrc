@@ -5,3 +5,4 @@ fi
 alias update-dotfiles='(cd /root && git fetch --all && git reset --hard origin/main && git pull origin main)'
 
 eval "$(starship init zsh)"
+eval .config/starship-env.sh
