@@ -1,7 +1,7 @@
-if [ -f /home/user/zcommands.sh ]; then
-    source /home/user/zcommands.sh
+if [ -f /root/zcommands.sh ]; then
+    source /root/zcommands.sh
 fi
 
-alias update-dotfiles='git -C /root pull origin main'
+alias update-dotfiles='(cd /root && git fetch --all && git reset --hard origin/main && git pull origin main)'
 
 eval "$(starship init zsh)"
