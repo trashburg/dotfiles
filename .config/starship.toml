@@ -21,7 +21,7 @@ $time\
 [ ](fg:#33658A)\
 """
 
-continuation_prompt = "[ ](fg:#33658A)"
+continuation_prompt = "[ ](fg:#06969A)"
 
 # You can also replace your username with a neat symbol like  to save some space
 [username]
@@ -32,12 +32,15 @@ format = '[$user ]($style)'
 
 [directory]
 style = "bg:#DA627D"
-format = "[ $path ]($style)"
-truncation_length = 2
-truncation_symbol = "…/"
+format = "[$path ]($style)"
+truncation_length = 3
+truncate_to_repo = false
+truncation_symbol = " 〰️ /"
+home_symbol = "🏡"
 
 [directory.substitutions]
-"workspaces" = " "
+"workspaces" = "🌺"
+"/" = " / "
 
 [c]
 symbol = " "
