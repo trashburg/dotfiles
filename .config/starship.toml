@@ -39,7 +39,7 @@ truncation_symbol = " 〰️/"
 home_symbol = "🏡"
 
 [directory.substitutions]
-"workspaces" = " 🌺 "
+"/workspaces" = " / 🌺 "
 
 [c]
 symbol = " "
