@@ -35,12 +35,11 @@ style = "bg:#DA627D"
 format = "[$path ]($style)"
 truncation_length = 3
 truncate_to_repo = false
-truncation_symbol = " 〰️ /"
+truncation_symbol = " 〰️/"
 home_symbol = "🏡"
 
 [directory.substitutions]
-"workspaces" = "🌺"
-"/" = " / "
+"workspaces" = " 🌺 "
 
 [c]
 symbol = " "

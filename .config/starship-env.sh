@@ -1,1 +1,1 @@
-starship config directory.substitutions.${RepositoryName} '🌱'
+starship config directory.substitutions.${RepositoryName} ' 🌱 '
