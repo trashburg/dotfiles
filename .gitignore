@@ -1,6 +1,10 @@
-*
+/*
 
 !.gitignore
 !.zshrc
-!*/
-!.config/*
+
+!/.config
+/.config/*
+
+!/.config/emacs/*
+!/.config/starship/*

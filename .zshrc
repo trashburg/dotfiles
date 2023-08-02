@@ -2,7 +2,11 @@ if [ -f /root/zcommands.sh ]; then
     source /root/zcommands.sh
 fi
 
-alias update-dotfiles='(cd /root && git fetch --all && git reset --hard origin/main && git pull origin main)'
+alias update-dotfiles='(cd ~ && git fetch --all && git reset --hard origin/main && git pull origin main)'
 
+export STARSHIP_CONFIG=~/.config/starship/starship.toml
 eval "$(starship init zsh)"
-source /root/.config/starship-env.sh
+
+_comp_options+=(globdots)
+
+source ~/.config/starship/starship-env.sh
